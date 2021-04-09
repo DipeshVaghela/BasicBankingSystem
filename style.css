@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.headingFont{
+    font-family: 'Sirin Stencil', cursive;
+    color: white;
+}
+
+.heading1{
+    font-family: 'Fauna One', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.heading2{
+    padding: 5px;
+    margin-bottom:5px;
+    display: inline-block;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+    background-color:#000000;
+    opacity:0.5;
+}
+
+
+#bbs{
+   transition: font-size 1s,border-top 1s,border-bottom 1s,padding 1s;
+}
+
+#bbs:hover {
+  font-size:30px;
+  padding:10px;
+  border-top: 2px solid blue ;
+  border-bottom: 2px solid blue ;
+}
+
+.leftDiv{
+    width:50%;
+    height:100%;
+    float:left;
+    padding: 20px;
+}
+.rightDiv{
+    width:50%;
+    height:100%;
+    float:right;
+}
+
+button.btnGrow{
+    width: 50%;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 18px;
+    transition: width 1s,border-radius 1s,background-color 1s;
+ }
+
+ button.btnGrow:hover {
+   width : 100%;
+   border-radius : 100px;
+   background-color: green;
+ }
